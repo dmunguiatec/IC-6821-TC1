@@ -12,6 +12,9 @@ repositories {
     mavenCentral()
 }
 
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
 dependencies {
     checkstyle project(':checks')
     // Use JUnit test framework

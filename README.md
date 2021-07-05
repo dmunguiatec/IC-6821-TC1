@@ -80,6 +80,22 @@ tablero que siga el formato del siguiente ejemplo:
 +---+---+---+
 ```
 
+## Ambiente de desarrollo ##
+
+Para correr las pruebas:
+
+```bash
+./gradlew clean check
+```
+
+Para ejecutar la aplicación:
+
+```bash
+./gradlew run
+```
+
+Instalar versión del compilador `11.0.8.hs-adpt` con sdk (https://sdkman.io/).
+
 ## Aspectos operativos ##
 
 - No modificar ningún archivo de código ya existente en el repositorio.
