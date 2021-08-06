@@ -82,6 +82,8 @@ tablero que siga el formato del siguiente ejemplo:
 
 ## Ambiente de desarrollo ##
 
+El código requiere de Java 11 y gradle.
+
 Para correr las pruebas:
 
 ```bash
@@ -93,8 +95,6 @@ Para ejecutar la aplicación:
 ```bash
 ./gradlew run
 ```
-
-Instalar versión del compilador `11.0.8.hs-adpt` con sdk (https://sdkman.io/).
 
 ## Aspectos operativos ##
 
